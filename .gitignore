@@ -1,0 +1,5 @@
+node_modules/
+dist/
+*.toolpkg
+.vscode/
+.DS_Store

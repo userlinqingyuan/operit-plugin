@@ -1,6 +1,6 @@
-// main.js
-function main() {
-  console.log("Hello from Operit plugin!");
-  return "插件运行成功！";
+"use strict";
+/// <reference path="./types/index.d.ts" />
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.registerToolPkg = registerToolPkg;
+function registerToolPkg() {
 }
-module.exports = { main };

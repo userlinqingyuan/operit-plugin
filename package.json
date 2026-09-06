@@ -1,0 +1,14 @@
+{
+  "name": "operit-daily-reporter",
+  "version": "0.1.0",
+  "description": "Operit ToolPkg：每日汇报员",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "pack": "npm run build && powershell -NoProfile -ExecutionPolicy Bypass -File scripts/pack-toolpkg.ps1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.4.5"
+  }
+}
