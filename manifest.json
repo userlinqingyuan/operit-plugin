@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "toolpkg_id": "com.yourname.operit_daily_report",
+  "toolpkg_id": "com.linqingyuan.operit.daily_reporter",
   "version": "0.1.0",
   "author": ["林清渊"],
   "main": "main.js",
